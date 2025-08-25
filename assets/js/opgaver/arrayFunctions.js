@@ -94,6 +94,8 @@ console.log(myYummies);
 let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // din kode her...
+let myNextNumbers = myNumbers.map((num) => num + 7);
+let myLastNumbers = myNextNumbers.map((num) => num * 12);
 console.log(myNextNumbers);
 console.log(myLastNumbers);
 
