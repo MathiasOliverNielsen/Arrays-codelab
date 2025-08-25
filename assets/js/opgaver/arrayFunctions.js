@@ -73,7 +73,7 @@ console.log(myYummies);
  */
 
 // din kode her...
-
+myYummies.sort();
 console.log(myYummies);
 
 /* opgave 6 reverse()
@@ -81,7 +81,7 @@ console.log(myYummies);
  */
 
 // din kode her...
-
+myYummies.reverse();
 console.log(myYummies);
 
 //.........................................................
