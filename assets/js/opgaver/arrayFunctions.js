@@ -19,12 +19,13 @@ console.log(myArray);
 // opgave 2 tilføj element4 til starten myArray
 
 // din kode her...
-
+myArray.unshift('element4');
 console.log(myArray);
 
 // opgave 2 fjern element4 igen
 
 // din kode her...
+myArray.shift();
 console.log(myArray);
 
 //.........................................................
