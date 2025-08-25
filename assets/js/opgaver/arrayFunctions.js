@@ -1,9 +1,5 @@
-
 let myArray = ['element1', 'element2', 'element3'];
 let myPartArray = ['partElement1', 'partElement2', 'PartElement3'];
-
-
-
 
 //.........................................................
 // opgave 1 tilføj element4 til enden myArray
@@ -33,21 +29,17 @@ console.log(myArray);
 let myFruits = ['æble', 'pære', 'banan', 'appelsin', 'citron'];
 let myVegetables = ['salat', 'blomkål', 'spidskål', 'agurk'];
 
-
 /* opgave 3 splice()
  tilføj mandarin og fersken efter pære i myFruits
  */
 
 // din kode her...
 
-
-
 console.log(myFruits);
 
 // opgave 3 fjern mandarin og fersken igen
 
 // din kode her...
-
 
 console.log(myFruits);
 
@@ -59,8 +51,6 @@ og ind i en ny array der hedder myCabbage*/
 
 // din kode her...
 
-
-
 console.log(myCabbage);
 
 //.........................................................
@@ -68,10 +58,7 @@ console.log(myCabbage);
  sæt arrays myFruits og myVegetables sammen i en ny array der hedder myYummies
  */
 
-
 // din kode her...
-
-
 
 console.log(myYummies);
 
@@ -81,17 +68,13 @@ console.log(myYummies);
  sorter array  myYummies fra opgave 5
  */
 
-
 // din kode her...
-
-
 
 console.log(myYummies);
 
 /* opgave 6 reverse()
  vend rækkefølgen på  array  myYummies fra opgave 6
  */
-
 
 // din kode her...
 
@@ -116,7 +99,4 @@ skriv en kode der kan give os en ny array, udfra myNames, hvor navnet keld ikke 
 */
 let myNames = ['keld', 'søren', 'jens', 'tine', 'keld', 'ib', 'lene', 'keld', 'frederikke', 'line', 'kurt'];
 
-
 //.........................................................
-
-
