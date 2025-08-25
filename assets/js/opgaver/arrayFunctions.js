@@ -38,13 +38,13 @@ let myVegetables = ['salat', 'blomkål', 'spidskål', 'agurk'];
  */
 
 // din kode her...
-
+myFruits.splice(2, 0, 'mandarin', 'fersken');
 console.log(myFruits);
 
 // opgave 3 fjern mandarin og fersken igen
 
 // din kode her...
-
+myFruits.splice(2, 2);
 console.log(myFruits);
 
 //.........................................................
