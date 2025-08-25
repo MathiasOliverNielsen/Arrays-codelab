@@ -63,7 +63,7 @@ console.log(myCabbage);
  */
 
 // din kode her...
-
+let myYummies = myFruits.concat(myVegetables);
 console.log(myYummies);
 
 //.........................................................
