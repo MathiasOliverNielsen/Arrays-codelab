@@ -93,9 +93,29 @@ console.log(myYummies);
  */
 let myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
-// din kode her...
+// din kode her..
 let myNextNumbers = myNumbers.map((num) => num + 7);
 let myLastNumbers = myNextNumbers.map((num) => num * 12);
+
+console.log(myNextNumbers);
+console.log(myLastNumbers);
+
+// Opgave 7 med forEach
+let myNextNumbersForEach = [];
+myNumbers.forEach(function (number) {
+  myNextNumbersForEach.push(number + 7);
+});
+
+let myLastNumbersForEach = [];
+myNextNumbersForEach.forEach(function (number) {
+  myLastNumbersForEach.push(number * 12);
+});
+
+console.log(myNextNumbersForEach);
+console.log(myLastNumbersForEach);
+
+// din kode her... med foreach.
+
 console.log(myNextNumbers);
 console.log(myLastNumbers);
 
@@ -106,3 +126,5 @@ skriv en kode der kan give os en ny array, udfra myNames, hvor navnet keld ikke 
 let myNames = ['keld', 'søren', 'jens', 'tine', 'keld', 'ib', 'lene', 'keld', 'frederikke', 'line', 'kurt'];
 
 //.........................................................
+let filteredNames = myNames.filter((name) => name !== 'keld');
+console.log(filteredNames);
